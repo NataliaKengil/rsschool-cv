@@ -1,6 +1,6 @@
-## *Student [rsschool](https://rs.school)*
+## [rsschool](https://rs.school)
 
-## **Natalia Kengil**
+# **Natalia Kengil**
 
 ### **Junior frontend developer**
 
