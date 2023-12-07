@@ -1,10 +1,12 @@
-## [rsschool](https://rs.school)
+# [rsschool](https://rs.school)
 
-# **Natalia Kengil**
+## **Natalia Kengil**
 
 ### **Junior Front-End Developer**
 
-**__________________________________________________________________________________**
+![Photo](C:\Users\Hp\rs_school\rsschool-cv\img.IMG_3029.JPG)
+
+***
 
 #### ***Contacts***
 
@@ -13,7 +15,7 @@
 * Email: <kengilnatalia@gmail.com>
 * GitHub: [NataliaKengil](https://github.com/NataliaKengil)
 
-**__________________________________________________________________________________**
+***
 
 #### ***Tech Skills***
 
@@ -23,7 +25,7 @@
 * Java
 * SQL
 
-**__________________________________________________________________________________**
+***
 
 #### ***Soft Skills***
 
@@ -31,7 +33,7 @@
 * Agile
 * Teamwork
 
-**__________________________________________________________________________________**
+***
 
 #### ***Code Example***
 
@@ -49,13 +51,14 @@
 
 ```
   
-**__________________________________________________________________________________**
+***
 
 #### ***About Me***
 
 I work well in a team and very responsible person. I can easily adapt to any conditions and I am interested in everything that surrounds me.
 I like to communicate with new people, like to read and otherwise develop.
-**__________________________________________________________________________________**
+
+***
 
 #### ***My Education***
 
