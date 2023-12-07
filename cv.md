@@ -3,6 +3,7 @@
 # **Natalia Kengil**
 
 ### **Junior Front-End Developer**
+![Photo](C:\Users\Hp\rs_school\rsschool-cv\img)
 
 **__________________________________________________________________________________**
 
