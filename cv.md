@@ -2,7 +2,7 @@
 
 ## **Natalia Kengil**
 
-![Photo](/image/20140614_114450.jpg)
+![Photo](/image/IMG_Nat.jpeg)
 
 ### **Junior Frontend Developer**
 
