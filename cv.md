@@ -65,10 +65,8 @@ I like to communicate with new people, like to read and otherwise develop. Activ
 
 * Ukrainian Engineering Pedagogics Academy, Professional education. Enterprise economics, marketing, and management
 * Courses:
-    - JavaScript/Front-end, RSSchool
-    - Automation QA, Java Script (4 month), RedRoverSchool
-    - Turkish language level A2 2020 (160 hours), ISMEK Istanbul
-    - English language level B1 2023 (48 hours), Oxford Business College
-    - English language level B2 2022 (120 hours), ISMEK Istanbul
-
-    
+        - JavaScript/Front-end, RSSchool
+        - Automation QA, Java Script (4 month), RedRoverSchool
+        - Turkish language level A2 2020 (160 hours), ISMEK Istanbul
+        - English language level B1 2023 (48 hours), Oxford Business College
+        - English language level B2 2022 (120 hours), ISMEK Istanbul  
