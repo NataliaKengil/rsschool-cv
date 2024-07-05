@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="assets/svg/icons8-лебедь-32.ico" />
-    <img src="assets/img/IMG_Nata.jpeg" alt="my photo" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/svg/icons8-лебедь-32.ico">
   </head>
   <body>
     <header class="header">
@@ -17,22 +16,19 @@
               <a href="#contacts" class="nav-link">Contacts</a>
             </li>
             <li class="nav-item">
-              <a href="#tech skills" class="nav-link">Tech Skills</a>
+              <a href="#techSkills" class="nav-link">Tech Skills</a>
             </li>
             <li class="nav-item">
-              <a href="#soft skills" class="nav-link">Soft Skills</a>
+              <a href="#softSkills" class="nav-link">Soft Skills</a>
             </li>
             <li class="nav-item">
-              <a href="#code example" class="nav-link">Code Example</a>
-            </li>
-            <li class="nav-item">
-              <a href="#about me" class="nav-link">About Me</a>
+              <a href="#codeExample" class="nav-link">Code Example</a>
             </li>
             <li class="nav-item">
               <a href="#experience" class="nav-link">Experiens</a>
             </li>
             <li class="nav-item">
-              <a href="#my education" class="nav-link">My Education</a>
+              <a href="#myEducation" class="nav-link">My Education</a>
             </li>
           </ul>
         </nav>
@@ -43,7 +39,7 @@
         <section class="section" id="profile">
           <h1 class="section-title">Natalia Kengil</h1>
           <h2 class="section-position">Junior Frontend Developer</h2>
-          <img src="assets/img/IMG_Nata.jpeg" alt="user photo" class="photo" />
+          <img src="assets/img/IMG_Nata.jpeg" alt="user photo" class="photo">
         </section>
         <section class="section" id="contacts">
           <h3 class="section-title">Contacts</h3>
@@ -62,7 +58,7 @@
             <a href="https://www.linkedin.com/feed/">linkedin.com/feed</a>
           </p>
         </section>
-        <section class="section" id="tech skills">
+        <section class="section" id="techSkills">
           <h3 class="section-title">Tech Skills</h3>
           <ul class="tech-skills-list">
             <li class="tech-skills-item">
@@ -82,7 +78,7 @@
             </li>
           </ul>
         </section>
-        <section class="section" id="soft skills">
+        <section class="section" id="softSkills">
           <h3 class="section-title">Soft Skills</h3>
           <ul class="soft-skills-list">
             <li class="soft-skills-item">
@@ -96,12 +92,12 @@
             </li>
           </ul>
         </section>
-        <section class="section" id="code example">
+        <section class="section" id="codeExample">
           <h3 class="section-title">Code example</h3>
           <pre class="code example">
 function stringy(size) {
                       let str=''
-                       for( let i = 1; i <= size; i++){
+                       for( let i = 1; i &lt;= size; i++){
                          if(i %2 !== 0){
                           str = str + '1'
                          } else str+= '0'
@@ -126,7 +122,7 @@ function stringy(size) {
             >
           </p>
         </section>
-        <section class="section" id="my education">
+        <section class="section" id="myEducation">
           <h3 class="section-title">My Education</h3>
           <h4 class="university">Ukrainian Engineering Pedagogics Academy</h4>
           <h5 class="specialization">
@@ -154,5 +150,22 @@ function stringy(size) {
         </section>
       </div>
     </main>
+    <footer class="footer">
+      <div class="contayner">
+        <section class="section" id="rsschoolInfo">
+          <a href="https://github.com/NataliaKengil"
+            >github.com/NataliaKengil</a
+          >
+          <h6 class="year of application">2024</h6>
+          <a
+            href="https://raw.githubusercontent.com/rolling-scopes-school/tasks/61cea2636c5a5f660b1070fa262bbd4acc92ec66/tasks/cv/rs-school-logo.svg"
+            >rs-school-logo.svg</a
+          >
+          <a href="https://rs.school/courses/javascript-ru"
+            >rs.school/courses/javascript-ru</a
+          >
+        </section>
+      </div>
+    </footer>
   </body>
 </html>
