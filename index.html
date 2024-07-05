@@ -1,13 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="assets/svg/icons8-лебедь-32.ico" />
-</head>
-<body>
-   
-</body>
+    <img src="assets/img/IMG_Nata.jpeg" alt="my photo" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="contayner">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#tech skills" class="nav-link">Tech Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#soft skills" class="nav-link">Soft Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#code example" class="nav-link">Code Example</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about me" class="nav-link">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a href="#experience" class="nav-link">Experiens</a>
+            </li>
+            <li class="nav-item">
+              <a href="#my education" class="nav-link">My Education</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="contayner">
+        <section class="section" id="profile">
+          <h1 class="section-title">Natalia Kengil</h1>
+          <h2 class="section-position">Junior Frontend Developer</h2>
+          <img src="assets/img/IMG_Nata.jpeg" alt="user photo" class="photo" />
+        </section>
+        <section class="section" id="contacts">
+          <h3 class="section-title">Contacts</h3>
+          <p>
+            <span class="contact-type">Github:</span>
+            <a href="https://github.com/NataliaKengil"
+              >github.com/NataliaKengil</a
+            >
+          </p>
+          <p>
+            <span class="contact-type">Email:</span>
+            <a href="mailto:kengilnatalia@gmail.com">kengilnatalia@gmail.com</a>
+          </p>
+          <p>
+            <span class="contact-type">Linkedin</span>
+            <a href="https://www.linkedin.com/feed/">linkedin.com/feed</a>
+          </p>
+        </section>
+        <section class="section" id="tech skills">
+          <h3 class="section-title">Tech Skills</h3>
+          <ul class="tech-skills-list">
+            <li class="tech-skills-item">
+              <span class="tech-skills-text">Java Script</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-text">HTML5</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-text">CSS</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-text">Git</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-text">Playwright</span>
+            </li>
+          </ul>
+        </section>
+        <section class="section" id="soft skills">
+          <h3 class="section-title">Soft Skills</h3>
+          <ul class="soft-skills-list">
+            <li class="soft-skills-item">
+              <span class="soft-skills-text">Scrum</span>
+            </li>
+            <li class="soft-skills-item">
+              <span class="soft-skills-text">Agile</span>
+            </li>
+            <li class="soft-skills-item">
+              <span class="soft-skills-text">Teamwork</span>
+            </li>
+          </ul>
+        </section>
+        <section class="section" id="code example">
+          <h3 class="section-title">Code example</h3>
+          <pre class="code example">
+function stringy(size) {
+                      let str=''
+                       for( let i = 1; i <= size; i++){
+                         if(i %2 !== 0){
+                          str = str + '1'
+                         } else str+= '0'
+                       }
+                    return str
+                    }
+            </pre
+          >
+        </section>
+        <section class="section" id="experience">
+          <h3 class="section-title">Experience</h3>
+          <p>
+            I work well in a team and very responsible person. I can easily
+            adapt to any conditions and I am interested in everything that
+            surrounds me. I like to communicate with new people, like to read
+            and otherwise develop.
+          </p>
+          <p>
+            <span class="project">RSSchool CV Project</span>
+            <a href="https://nataliakengil.github.io/rsschool-cv/cv"
+              >nataliakengil.github.io/rsschool-cv/cv</a
+            >
+          </p>
+        </section>
+        <section class="section" id="my education">
+          <h3 class="section-title">My Education</h3>
+          <h4 class="university">Ukrainian Engineering Pedagogics Academy</h4>
+          <h5 class="specialization">
+            Professional education. Enterprise economics, marketing, and
+            management.
+          </h5>
+          <h6 class="courses">Courses</h6>
+          <ul class="courses-list">
+            <li class="courses-list-item">
+              Frontend developer (Java Script) Rsschool
+            </li>
+            <li class="courses-list-item">
+              QA Automation (Java Script) Red Rover School
+            </li>
+            <li class="courses-list-item">
+              English language level B1 2023 (48 hours), Oxford Business College
+            </li>
+            <li class="courses-list-item">
+              English language level B2 2022 (120 hours), ISMEK Istanbul
+            </li>
+            <li class="courses-list-item">
+              Turkish language level A2 2020 (160 hours), ISMEK Istanbul
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+  </body>
 </html>
