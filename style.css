@@ -3,8 +3,47 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   color: #333333;
+}
 
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("assets/fonts/Roboto-Regular.ttf");
+  font-weight: 100
+}
+
+@font-face {
+  font-family: "Roboto-BoldItalic";
+  src: url("assets/fonts/Roboto-BoldItalic.ttf");
+  font-weight: 300;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 50%;
+  margin: 0 auto;
 }
 
 .section-title {
@@ -13,6 +52,23 @@ body {
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #0f0f1a;
+  font-family: "Roboto-BoldItalic";
+  src: url("assets/fonts/Roboto-BoldItalic.ttf");
+  font-weight: 300;
+}
+
+.section-position{
+  font-size: 20px;
+}
+
+.section-item a {
+  color: #829985;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.section-item a:hover {
+  color: #4d2323;
 }
 
 .link {
@@ -24,82 +80,54 @@ body {
 .link:hover {
   color: #2f3b31;
 }
-
-
-
-@font-face {
-    font-family: "Roboto";
-    src: url("assets/fonts/Roboto-Regular.ttf");
-    font-weight: 100
-  }
-
-@font-face {
-    font-family: "Roboto-BoldItalic";
-    src: url("assets/fonts/Roboto-BoldItalic.ttf");
-    font-weight: 300;
-  }
-
-  .container {
-    max-width: 1440px;
-    margin: 0 auto;
   
-  }
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
 
-  .nav-list {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    list-style: none;
-  }
-  .nav-link {
-  
-    transition: 0.3s;
-  }
+.nav-link {
+  transition: 0.3s;
+}
 
-  .nav-item{
+.nav-item{
   padding: 0 10px;
- }
+}
 
-  html {
-    scroll-behavior: smooth;
-  }
+.tech-skills,
+.soft-skills{
+  margin-left: 40px;  
+}
 
-  section-item a {
-    color: #829985;
-    text-decoration: none;
-    transition: color 0.5s;
-  }
-  .section-item a:hover {
-    color: #4d2323;
-  }
+.contact-type{
+  font-weight: bolder;
+}
 
-  body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
+.contacts,
+.project, 
+.project-link{
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 16px;
+    line-height: 24px;
+    color: #595959;
+}
 
-  .main-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .section {
-    width: 50%;
-    margin: 0 auto;
-  }
+.university{
+  font-style: normal;
+    font-weight: bolder;
+    font-size: 16px;
+    line-height: 24px;
+}
 
-  @media (max-width: 768px) {
-    .section {
-      width: 100%;
-    }
-  }
-  .logo{
-    width: 200px;
-    
-  }
-  #rsschoolInfo{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
+.logo{
+  width: 200px;
+}
+ 
+#rsschoolInfo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
